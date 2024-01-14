@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2E5671;
+    color: white;
+}
+
+header {
+    background-color: #E85457;
+    padding: 20px;
+}
+
+.logo-container img {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.landing {
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.barista-image {
+    width: 40%; /* Adjust the size as needed */
+    /* Add more styling for the image if necessary */
+}
+
+.about-content {
+    width: 50%; /* Adjust the size as needed */
+}
+
+.contact,
+.reviews,
+.maps {
+    margin: 40px 0;
+}
+
+footer {
+    background-color: black;
+    color: #698E9E;
+    text-align: center;
+    padding: 10px;
+}
